@@ -1,7 +1,7 @@
 import React from 'react';
 import calendario from '../assets/calendario.svg'
 import reloj from '../assets/reloj.svg'
-import ubicacion from '../assets/ Destino.svg'
+import ubicacion from '../assets/Destino.svg'
 import { type Horario } from '../Data/horarios';
 
 interface Props {
