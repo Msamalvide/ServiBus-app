@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { ScheduleTable } from '../Components/ScheduleTable'; 
 import { datosHorarios } from '../Data/horarios'; 
 import DestinosSiderBar from '../Components/DestinoSiderBar';
+import DestinosMobile from '../Components/DestinosMovil';
 
 export const SchedulePage = () => {
   const [destino, setDestino] = useState<'Santa Rosa' | 'General Pico'>('Santa Rosa');
@@ -10,6 +11,10 @@ export const SchedulePage = () => {
     <main className="max-w-7xl mx-auto p-4 md:p-10 flex flex-col lg:flex-row gap-8">
       
       {/* SIDEBAR: Solo se ve en Desktop (ya tiene el 'hidden md:flex') */}
+
+      {/* Selector Móvil */}
+      <DestinosMobile destinoActivo={destino} setDestinoActivo={setDestino} />
+
       <DestinosSiderBar 
         destinoActivo={destino} 
         setDestinoActivo={setDestino} 
