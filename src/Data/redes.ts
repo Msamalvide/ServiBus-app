@@ -1,4 +1,4 @@
-import whatsapp from "../assets/whatsappicono.svg";
+import whatsapp from "../assets/whatsappIcono.svg";
 import instagram from "../assets/instagramlogo.svg";
 import facebook from "../assets/logos_facebook.svg";
 
