@@ -1,0 +1,3 @@
+export const historia=`Servi bus inició su recorrido el 1 de noviembre de 1992, estableciendo un compromiso inquebrantable con la conectividad de nuestra región. Durante casi tres décadas, mantuvimos una presencia diaria con doble servicio, adaptándonos constantemente a las necesidades de nuestros pasajeros.
+Tras los desafíos que presentó la pandemia, reorganizamos nuestra estructura para garantizar la continuidad del servicio, centrando nuestras operaciones los días viernes.
+En octubre de 2025, dimos un paso estratégico al incorporar la línea a General Pico, brindando hoy tres frecuencias semanales para conectar de manera eficiente a los vecinos de la zona.`
