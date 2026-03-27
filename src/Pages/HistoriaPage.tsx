@@ -1,10 +1,11 @@
 import { historia } from "../Data/historia";
 import imagenServis from "../assets/imagenServi.svg"
+import { BotonFlot } from "../Components/BotonFlot";
 
 export const HistoriaPage = () => {
     return (
         <main className="max-w-7xl mx-auto p-4 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 min-h-[70vh]">
-            
+            <BotonFlot />
             {/* SECCIÓN IMAGEN: Con bordes muy redondeados y sombra suave */}
             <section className="w-full md:w-1/2 flex justify-center">
                 <div className="relative group">
