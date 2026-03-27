@@ -19,7 +19,7 @@ export const datosHorarios:Record<string, {ida:Horario[], vuelta:Horario[]}> = {
         ida:[
             {id:1, dia: 'Lun a Sab', hora:'07:00hs', ascenso:'Domicilio', descenso:'Domicilio'},
             {id:2, dia: 'Viernes', hora:'15:00hs', ascenso:'Domicilio', descenso:'Domicilio'},
-            {id:3, dia: 'Domingo', hora:'19:00hs', ascenso:'Domicilio', descenso:'Domicilio'}
+            {id:3, dia: 'Domingo', hora:'19:00hs', ascenso:'Domicilio', descenso:'Terminal'}
         ],
         //Santa Rosa- Col.Baron
         vuelta:[

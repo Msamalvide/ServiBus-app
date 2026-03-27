@@ -1,7 +1,7 @@
 import React from 'react';
 import calendario from '../assets/calendario.svg'
 import reloj from '../assets/Reloj.svg'
-import ubicacion from '../assets/Destino.svg'
+import bus from '../assets/bus.svg';
 import { type Horario } from '../Data/horarios';
 
 interface Props {
@@ -39,7 +39,7 @@ export const ScheduleTable: React.FC<Props> = ({ titulo, horarios }) => {
               {/* Columna Recorrido: El resto del ancho */}
               <th className="p-4">
                 <div className="flex justify-center items-center">
-                  <img className="w-6 h-6 md:w-7 md:h-7 object-contain" src={ubicacion} alt='Recorrido'/>
+                  <img className="w-6 h-6 md:w-9 md:h-9 object-contain" src={bus} alt='Recorrido'/>
                 </div>
               </th>
             </tr>
