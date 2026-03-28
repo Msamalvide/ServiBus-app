@@ -3,6 +3,7 @@ import { ScheduleTable } from '../Components/ScheduleTable';
 import { datosHorarios } from '../Data/horarios'; 
 import DestinosSiderBar from '../Components/DestinoSiderBar';
 import DestinosMobile from '../Components/DestinosMovil';
+import { BotonFlot } from '../Components/BotonFlot';
 
 export const SchedulePage = () => {
   const [destino, setDestino] = useState<'Santa Rosa' | 'General Pico'>('Santa Rosa');
@@ -42,6 +43,9 @@ export const SchedulePage = () => {
           
         </div>
       </div>
+
+      <BotonFlot />
+
     </main>
   );
 };

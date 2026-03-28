@@ -1,7 +1,6 @@
 
 import './App.css'
 import Navbar from './Components/Navbar'
-import { BotonFlot } from './Components/BotonFlot'
 import {useState} from 'react';
 import { SchedulePage } from './Pages/SchedulePage';
 import { ContactoPage } from './Pages/ContactoPage';
@@ -20,8 +19,6 @@ function App() {
       {seccion === 'Horarios' && <SchedulePage />}
       {seccion === 'Contacto' && <ContactoPage />}
       {seccion === 'Historia' && <HistoriaPage />}
-
-      <BotonFlot />
     </>
   )
 }

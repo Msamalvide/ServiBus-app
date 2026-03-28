@@ -17,17 +17,17 @@ export const datosHorarios:Record<string, {ida:Horario[], vuelta:Horario[]}> = {
     'Santa Rosa':{
         //Col.Baron-Santa Rosa
         ida:[
-            {id:1, dia: 'Lun a Sab', hora:'07:00hs', ascenso:'Domicilio', descenso:'Domicilio'},
-            {id:2, dia: 'Viernes', hora:'15:00hs', ascenso:'Domicilio', descenso:'Domicilio'},
-            {id:3, dia: 'Domingo', hora:'19:00hs', ascenso:'Domicilio', descenso:'Terminal'}
+            {id:1, dia: 'Lun a Sab', hora:'07:00hs', ascenso:'Tu domicilio', descenso:'Tu domicilio'},
+            {id:2, dia: 'Viernes', hora:'15:00hs', ascenso:'Tu domicilio', descenso:'Tu domicilio'},
+            {id:3, dia: 'Domingo', hora:'19:00hs', ascenso:'Tu domicilio', descenso:'Terminal'}
         ],
         //Santa Rosa- Col.Baron
         vuelta:[
-            {id:4, dia: 'Lun a Jue', hora:'13:00hs', ascenso:'Terminal', descenso:'Domicilio'},
-            {id:5, dia: 'Viernes', hora:'12:00hs', ascenso:'Terminal', descenso:'Domicilio'},
-            {id:6, dia: 'Viernes', hora:'20:00hs', ascenso:'Terminal', descenso:'Domicilio'},
-            {id:7, dia: 'Sabado', hora:'13:00hs', ascenso:'Terminal', descenso:'Domicilio'},
-            {id:8, dia: 'Domingo', hora:'21:00hs', ascenso:'Terminal', descenso:'Domicilio'}
+            {id:4, dia: 'Lun a Jue', hora:'13:00hs', ascenso:'Terminal', descenso:'Tu domicilio'},
+            {id:5, dia: 'Viernes', hora:'12:00hs', ascenso:'Terminal', descenso:'Tu domicilio'},
+            {id:6, dia: 'Viernes', hora:'20:00hs', ascenso:'Terminal', descenso:'Tu domicilio'},
+            {id:7, dia: 'Sabado', hora:'13:00hs', ascenso:'Terminal', descenso:'Tu domicilio'},
+            {id:8, dia: 'Domingo', hora:'21:00hs', ascenso:'Terminal', descenso:'Tu domicilio'}
         ]
     },
 
