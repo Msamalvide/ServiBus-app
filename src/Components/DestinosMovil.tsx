@@ -19,9 +19,14 @@ const DestinosMobile: React.FC<Props> = ({ destinoActivo, setDestinoActivo }) =>
           <button
             key={destino}
             onClick={() => setDestinoActivo(destino)}
-            className={`flex-1 py-3 rounded-2xl font-bold text-lg border-2 transition-all duration-300
+            /* PARCHES PARA SAFARI VIEJO:
+               1. min-w-[140px]: Evita que el botón colapse y el texto desaparezca.
+               2. bg-[#24D6EA]: Color sólido de respaldo si falla el degradado.
+               3. flex-shrink-0: Asegura que el botón mantenga su forma.
+            */
+            className={`flex-1 min-w-[140px] flex-shrink-0 py-3 rounded-2xl font-bold text-lg border-2 transition-all duration-300
               ${esActivo 
-                ? 'bg-gradient-to-r from-[#24D6EA] to-[#0C9FAF] border-[#24D6EA] text-white shadow-lg' 
+                ? 'bg-[#24D6EA] bg-gradient-to-r from-[#24D6EA] to-[#0C9FAF] border-[#24D6EA] text-white shadow-lg' 
                 : 'bg-white border-[#24D6EA] text-[#007bb1]'
               }`}
           >
