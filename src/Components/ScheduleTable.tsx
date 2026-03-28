@@ -67,8 +67,8 @@ export const ScheduleTable: React.FC<Props> = ({ titulo, horarios }) => {
                     
                     {/* Parada Intermedia: Usamos transparencia en el fondo */}
                     {titulo === "Colonia Barón ➔ General Pico" &&(
-                      <div className="flex items-center gap-1.5 text-[#00A8C1] font-black text-xs bg-[#24D6EA]/10 w-fit px-2 py-1 rounded-lg border border-[#24D6EA]/20">
-                        <span>07:15 {item.intermedio}</span>
+                      <div className="flex items-center gap-1.5 text-[#007bb1] font-black text-xs bg-[#24D6EA]/10 w-fit px-2 py-1 rounded-lg border border-[#24D6EA]/20">
+                        <span>07:10 {item.intermedio}</span>
                       </div>
                     )}
                   </div>
